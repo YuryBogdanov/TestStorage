@@ -15,10 +15,6 @@ it, simply add the following line to your Podfile:
 pod 'TestStorage'
 ```
 
-## Author
-
-Bogdanov Yuriy Igorevich, y.bogdanov@tinkoff.ru
-
 ## License
 
 TestStorage is available under the MIT license. See the LICENSE file for more info.
