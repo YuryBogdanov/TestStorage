@@ -1,0 +1,6 @@
+framework module TestStorage {
+  umbrella header "TestStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

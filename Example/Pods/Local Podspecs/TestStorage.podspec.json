@@ -1,0 +1,29 @@
+{
+  "name": "TestStorage",
+  "version": "0.1.0",
+  "summary": "Test framework for CoreData in Pod trials. This will help to find out what's the issue is with CoreData in private pods.",
+  "homepage": "https://github.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yury Bogdanov": "yury.bogdanov@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Bogdanov Yuriy Igorevich/TestStorage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "CoreData",
+  "source_files": "TestStorage/Classes/**/*.swift",
+  "resources": [
+    "TestStorage/Classes/*.xcdatamodeld",
+    "TestStorage/Classes/*.xcdatamodeld/*.xcdatamodel"
+  ],
+  "preserve_paths": [
+    "TestStorage/Classes/TestStorage.xcdatamodeld"
+  ]
+}
