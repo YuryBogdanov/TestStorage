@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/YuryBogdanov/TestStorage.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-#  s.static_framework = true
+  s.static_framework = true
 
   s.frameworks = 'CoreData'
   s.source_files = 'TestStorage/Classes/**/*.swift'
   
-  s.resources = ['TestStorage/Classes/*.xcdatamodeld', 'TestStorage/Classes/*.xcdatamodeld/*.xcdatamodel']
+  s.resource_bundle = { 'TestStorageModel' => ['TestStorage/Classes/*.xcdatamodeld', 'TestStorage/Classes/*.xcdatamodeld/*.xcdatamodel'] }
   s.preserve_paths = ['TestStorage/Classes/TestStorage.xcdatamodeld']
   
 end
